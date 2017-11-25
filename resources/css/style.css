@@ -1,3 +1,5 @@
+/* Universal styles */
+
 html {
   font-size: 18px;
   background-color: white;
@@ -19,7 +21,7 @@ h1 {
   margin: auto;
 }
 
-/* Header*/
+/* Header */
 
 header {
   padding-top: 1rem;
@@ -78,4 +80,84 @@ header .flex {
   margin-top: 10rem;
   margin-right: -2rem;
   line-height: 2.4rem
+}
+
+/* Supporting info */
+
+div {
+  display: block;
+}
+
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+  width: 5rem;
+  height:
+}
+
+.exams img {
+  width: 3.5rem;
+  margin-right: 6rem;
+}
+
+.fittings img {
+  width: 5rem;
+  margin-right: 6rem;
+}
+
+.delivery img {
+  width: 5rem;
+}
+
+.business-info {
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.title {
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
+  max-width: 10rem;
+  padding: 0.5rem 1.25rem;
+}
+
+.info p {
+  padding: 1rem 0px;
+}
+
+p {
+  display: block;
+}
+
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+}
+
+img {
+  border-style: none;
 }
